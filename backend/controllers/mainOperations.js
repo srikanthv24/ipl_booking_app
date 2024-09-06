@@ -4,16 +4,22 @@ const matchModel = require('../models').matches;
 const helpers = require('../utils/helpers');
 
 const insertUser = () => {
+    console.log("inside insert user");
     userModel.find({}).then(users => {
+        console.log("users::::", users);
         if (users && users.length > 0) {
         } else {
             userModel.create(new userModel(helpers.defaultData.user)).then(user => {
                 if (user) {
                     console.log("user created");
                 }
-            }).catch(err => { })
+            }).catch(err => { 
+                console.log("user creation error", err.message);
+            })
         }
-    }).catch(error => { })
+    }).catch(error => { 
+        console.log("user find error", error.message);
+    })
 }
 
 const insertMatches = () => {
@@ -28,6 +34,7 @@ const insertMatches = () => {
 }
 
 const runMainOperations = () => {
+    console.log("inside main oprations::::");
     insertUser();
     insertMatches();
 }

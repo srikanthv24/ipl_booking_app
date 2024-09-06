@@ -17,8 +17,8 @@ const matches = [
         date: "01/10/2021",
         time: "8:00 pm",
         venue: "mumbai",
-        team_a_img: "http://localhost:4000/images/csk.png",
-        team_b_img: "http://localhost:4000/images/mi.png"
+        team_a_img: "http://localhost:8001/images/csk.png",
+        team_b_img: "http://localhost:8001/images/mi.png"
     },
     {
         unique_id: keys.uniqId(),
@@ -27,8 +27,8 @@ const matches = [
         date: "02/10/2021",
         time: "8:00 pm",
         venue: "KOLKATTA",
-        team_a_img: "http://localhost:4000/images/rcb.png",
-        team_b_img: "http://localhost:4000/images/kkr.png"
+        team_a_img: "http://localhost:8001/images/rcb.png",
+        team_b_img: "http://localhost:8001/images/kkr.png"
     },
     {
         unique_id: keys.uniqId(),
@@ -37,8 +37,8 @@ const matches = [
         date: "03/10/2021",
         time: "8:00 pm",
         venue: "DELHI",
-        team_a_img: "http://localhost:4000/images/dc.png",
-        team_b_img: "http://localhost:4000/images/rr.png"
+        team_a_img: "http://localhost:8001/images/dc.png",
+        team_b_img: "http://localhost:8001/images/rr.png"
     },
     {
         unique_id: keys.uniqId(),
@@ -47,8 +47,8 @@ const matches = [
         date: "04/10/2021",
         time: "8:00 pm",
         venue: "HYDERABAD",
-        team_a_img: "http://localhost:4000/images/srh.jpg",
-        team_b_img: "http://localhost:4000/images/kxip.png"
+        team_a_img: "http://localhost:8001/images/srh.jpg",
+        team_b_img: "http://localhost:8001/images/kxip.png"
     },
 ]
 
